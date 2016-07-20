@@ -7,7 +7,7 @@ AWS Lambda function which deploys lambda functions
 - Create `lambda-deployer` from S3 and give the following permissions:
   - Basic labda function execution permissions
   - S3 Read only permissions
-  - "lambda:UpdateFunctionCode" permissions
+  - "lambda:UpdateFunctionCode" permission
 - Set `lambda-deployer` as listener on S3 put object event
 
 **Note:** deployer is searching for the lambda functions by the file name: `<function-name>.zip`. If such function does not exist deployer will return error
