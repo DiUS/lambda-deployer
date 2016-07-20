@@ -1,0 +1,11 @@
+{
+  "name": "lambda-deployer",
+  "version": "0.0.1",
+  "description": "Lambda function which deploys lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "zip": "zip -r build/lambda-deployer.zip node_modules/ *.js *.json"
+  },
+  "author": "Anton Klimenko <aklimenko@dius.com.au>",
+  "license": "MIT"
+}
