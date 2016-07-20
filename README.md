@@ -13,6 +13,6 @@ AWS Lambda function which deploys lambda functions
 **Note:** deployer is searching for the lambda functions by the file name: `<function-name>.zip`. If such function does not exist deployer will return error
 
 ### TODO
-- Create lambda function if does not exist
+- Deployer should create lambda function if it does not exist
 - Handle `*.json` permission setting for lambda functions
 - Publish notifications to AWS SNS
